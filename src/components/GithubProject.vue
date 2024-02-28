@@ -8,6 +8,7 @@
       :modules="[Pagination, Mousewheel]"
       :slides-per-view="1"
       :space-between="40"
+
       :pagination="{
         el: '.swiper-pagination',
         clickable: true,

@@ -23,7 +23,8 @@
     <div class="content">
       <!-- 可在此处自定义任意内容 -->
       <TimeCapsule />
-      <GithubProject />
+      <!--隐藏github-->
+      <!--<GithubProject /> -->
     </div>
   </div>
 </template>
@@ -32,7 +33,7 @@
 import { CloseOne, SettingTwo } from "@icon-park/vue-next";
 import { mainStore } from "@/store";
 import TimeCapsule from "@/components/TimeCapsule.vue";
-import GithubProject from "@/components/GithubProject.vue";
+// import GithubProject from "@/components/GithubProject.vue";
 
 const store = mainStore();
 const closeShow = ref(false);
@@ -40,7 +41,7 @@ const closeShow = ref(false);
 
 <style lang="scss" scoped>
 .box {
-  flex: 1 0 0%;
+  flex: 1 0 0;
   margin-left: 0.75rem;
   height: 80%;
   max-width: 50%;
@@ -76,9 +77,10 @@ const closeShow = ref(false);
   }
 
   .content {
+    margin-top: 80px;
     padding: 30px;
     width: 100%;
-    height: 100%;
+    height: 80%;
   }
 }
 </style>
