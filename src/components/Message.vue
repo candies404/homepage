@@ -101,7 +101,7 @@ watch(
       width: 100%;
       padding-left: 22px;
       transform: translateY(-8px);
-      font-family: "Sriacha-Regular";
+      font-family: "Pacifico-Regular";
 
       .bg {
         font-size: 5rem;
