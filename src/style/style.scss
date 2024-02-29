@@ -40,13 +40,13 @@ p {
   font-family: "Pacifico-Regular";
   font-display: swap;
   //字体替换为Sriracha-Regular.ttf
-  src: url("font/Sriracha-Regular.ttf") format("truetype");
+  src: url("public/font/Sriracha-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "UnidreamLED";
   font-display: swap;
-  src: url("font/UnidreamLED.ttf") format("truetype");
+  src: url("public/font/UnidreamLED.ttf") format("truetype");
 }
 
 // 基础样式
